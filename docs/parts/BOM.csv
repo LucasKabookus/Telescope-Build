@@ -1,9 +1,6 @@
-Category,Part,Spec/Model,Qty,Cost (USD),Vendor/Link,Notes
-Optics,Primary mirror,10" f/5,1,,,,
-Optics,Secondary mirror,62.5 mm major axis,1,,,,
-Mount,Rocker box,Baltic birch plywood 3/4",1 sheet,,,Altitude/az
-Hardware,Teflon pads,1"x1",8,,,Bearings
-Hardware,Laminate,Wilsonart Ebony Star 4552-50,2 sq ft,,,Azimuth bearing
-Focuser,Crayford,1.25" (176 mm base),1,,,,
-Finish,Spar urethane,Exterior grade,1 can,,,Moisture protection
-Fasteners,Bolts & nuts,M4–M8 assorted,dozens,,,Mirror cell + structure
+Category,Part,Spec/Model,Qty,Cost (USD),Vendor/Link
+Optics,Primary mirror,10" f/5,1,$440,Agena Astro,https://agenaastro.com/gso-parabolic-primary-telescope-mirror-10-f-5-ad081.html
+Optics,Secondary mirror,62.5 mm major axis,1,$65,Agena Astro,https://agenaastro.com/gso-elliptical-secondary-mirror-62-5-mm.html
+Focuser,Crayford,1.25" (176 mm base),1,$95,Agena Astro,https://agenaastro.com/gso-1-25-crayford-focuser-with-176mm-base-plate-for-reflectors-single-speed.html
+Eyepiece,BST Planetary 6mm,1.25",1,$58,Agena Astro,https://agenaastro.com/bst-1-25-uwa-planetary-eyepiece-6mm.html
+Eyepiece,BST Planetary 20mm,1.25",1,$58,Agena Astro,https://agenaastro.com/bst-1-25-uwa-planetary-eyepiece-20mm.html
