@@ -1,6 +1,6 @@
 Category,Part,Spec/Model,Qty,Cost (USD),Vendor
-Optics,Primary mirror,10" f/5,1,440,Agena Astro
-Optics,Secondary mirror,62.5 mm major axis,1,65,Agena Astro
-Focuser,Crayford,1.25" (176 mm base),1,95,Agena Astro
-Eyepiece,BST Planetary 6mm,1.25",1,58,Agena Astro
-Eyepiece,BST Planetary 20mm,1.25",1,58,Agena Astro
+Optics,Primary mirror,"10"" f/5",1,$440,Agena Astro
+Optics,Secondary mirror,"62.5 mm major axis",1,$65,Agena Astro
+Focuser,Crayford,"1.25"" (176 mm base)",1,$95,Agena Astro
+Eyepiece,BST Planetary 6mm,"1.25""",1,$58,Agena Astro
+Eyepiece,BST Planetary 20mm,"1.25""",1,$58,Agena Astro
