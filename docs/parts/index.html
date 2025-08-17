@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Materials / Parts</title>
+  <style>
+    body{
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      margin:0; padding:40px 20px; background:#fafafa; display:flex; justify-content:center;
+    }
+    .container{
+      max-width:900px; background:#fff; padding:40px 30px; border-radius:12px;
+      box-shadow:0 2px 8px rgba(0,0,0,.08);
+    }
+    h1{font-size:2rem; margin:0 0 12px; text-align:center; color:#222}
+    p.muted{color:#666; text-align:center; margin-top:0}
+    .grid{display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); margin-top:20px}
+    .card{border:1px solid #e5e5e5; border-radius:12px; padding:14px 16px}
+    .item{font-weight:700; margin:0 0 6px}
+    .spec{margin:0 0 10px; color:#444}
+    a.btn{
+      display:inline-block; padding:8px 12px; border:1px solid #ddd; border-radius:8px;
+      text-decoration:none; color:#111; background:#f8f8f8;
+    }
+    a.btn:hover{background:#f1f1f1}
+    .footer{margin-top:22px; text-align:center; color:#666}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Materials / Parts</h1>
+    <p class="muted">Direct links to the core components I used. Full spreadsheet: <a href="BOM.csv">BOM.csv</a></p>
+
+    <section class="grid">
+      <div class="card">
+        <p class="item">Primary Mirror</p>
+        <p class="spec">GSO 10&quot; f/5 parabolic primary</p>
+        <a class="btn" href="https://agenaastro.com/gso-parabolic-primary-telescope-mirror-10-f-5-ad081.html" target="_blank" rel="noopener">View on AgenaAstro</a>
+      </div>
+
+      <div class="card">
+        <p class="item">Secondary Mirror</p>
+        <p class="spec">GSO 62.5 mm elliptical secondary</p>
+        <a class="btn" href="https://agenaastro.com/gso-elliptical-secondary-mirror-62-5-mm.html" target="_blank" rel="noopener">View on AgenaAstro</a>
+      </div>
+
+      <div class="card">
+        <p class="item">Eyepiece (6 mm)</p>
+        <p class="spec">BST 1.25&quot; UWA Planetary — 6 mm</p>
+        <a class="btn" href="https://agenaastro.com/bst-1-25-uwa-planetary-eyepiece-6mm.html" target="_blank" rel="noopener">View on AgenaAstro</a>
+      </div>
+
+      <div class="card">
+        <p class="item">Eyepiece (20 mm)</p>
+        <p class="spec">BST 1.25&quot; UWA Planetary — 20 mm</p>
+        <a class="btn" href="https://agenaastro.com/bst-1-25-uwa-planetary-eyepiece-20mm.html" target="_blank" rel="noopener">View on AgenaAstro</a>
+      </div>
+
+      <div class="card">
+        <p class="item">Crayford Focuser</p>
+        <p class="spec">GSO 1.25&quot; single-speed, 176 mm base plate</p>
+        <a class="btn" href="https://agenaastro.com/gso-1-25-crayford-focuser-with-176mm-base-plate-for-reflectors-single-speed.html" target="_blank" rel="noopener">View on AgenaAstro</a>
+      </div>
+    </section>
+
+    <p class="footer">
+      Back to <a href="../">Home</a> · Also see <a href="../build-log/">Build Log</a> and <a href="../gallery/">Gallery</a>
+    </p>
+  </div>
+</body>
+</html>
