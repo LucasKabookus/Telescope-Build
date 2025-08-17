@@ -1,6 +1,6 @@
 # 10" Newtonian Reflector Build
 
-This repository documents my two-year build of a 10" f/5 Newtonian reflector: optics, woodworking, mechanics, and first light.
+This repository documents my two-year build of a 10" f/5 Newtonian reflector: optics, woodworking, mechanics, and construction!
 
 ## Quick Links (Site)
 - **Project Homepage:** https://lucaskabookus.github.io/Telescope-Build/
