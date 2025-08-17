@@ -2,52 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>10&quot; Newtonian Telescope — Scratch Build</title>
   <style>
     :root { --max: 960px; }
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;max-width:var(--max);margin:40px auto;padding:0 16px;line-height:1.6}
-    header{margin-bottom:24px}
-    h1{margin:0 0 6px 0}
-    .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin:18px 0 28px}
-    a.card{display:block;padding:14px 16px;border:1px solid #e5e5e5;border-radius:12px;text-decoration:none;color:inherit}
-    a.card:hover{background:#fafafa}
-    .muted{color:#666}
-    footer{margin-top:32px;font-size:0.95rem}
-    code{background:#f2f2f2;padding:2px 6px;border-radius:6px}
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      max-width: var(--max);
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+      background: #fafafa;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    h1 { margin: 0 0 6px 0; font-size: 1.9rem; }
+    p.muted { color: #666; font-size: 1.05rem; margin-top: 6px; }
+    .grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+    a.card {
+      display: block;
+      padding: 18px 20px;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      background: #fff;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    a.card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    h3 { margin: 0 0 4px; font-size: 1.2rem; }
+    footer {
+      margin-top: 36px;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #777;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>10&quot; Newtonian Telescope — Scratch Build</h1>
-    <p class="muted">Two-year build documenting optics, mechanics, and iteration—from mirror cell to first light.</p>
+    <p class="muted">Two-year project documenting optics, woodworking, mechanics, and first light.</p>
   </header>
 
   <section class="grid">
     <a class="card" href="parts/BOM.csv">
       <h3>Bill of Materials →</h3>
-      <p>Complete parts list with vendor links & notes.</p>
+      <p>Complete parts list with vendor links and notes.</p>
     </a>
+
     <a class="card" href="build-log/">
       <h3>Build Log →</h3>
-      <p>Chronological photos, captions, and lessons learned.</p>
+      <p>Chronological photos & captions of the construction process.</p>
     </a>
+
     <a class="card" href="gallery/">
       <h3>Gallery →</h3>
-      <p>Highlights & first light (add images here).</p>
+      <p>Highlight shots including first light & Saturn capture.</p>
     </a>
+
     <a class="card" href="notes/">
       <h3>Notes →</h3>
-      <p>Star test, why I built it, troubleshooting.</p>
+      <p>Star test results and reflections on why I built it.</p>
     </a>
+
     <a class="card" href="designs/">
       <h3>Design Files →</h3>
-      <p>Sketches, dimensioned drawings, CAD exports.</p>
+      <p>Sketches, CAD, and drawings for mirror cell & mount.</p>
     </a>
   </section>
 
   <footer>
-    <p>GitHub repo: <a href="https://github.com/USERNAME/telescope-build">github.com/USERNAME/telescope-build</a></p>
+    <p>Project repo: 
+      <a href="https://github.com/lucaskabookus/Telescope-Build">
+        github.com/lucaskabookus/Telescope-Build
+      </a>
+    </p>
   </footer>
 </body>
 </html>
