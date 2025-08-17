@@ -3,7 +3,7 @@
 This repository documents my two-year build of a 10" f/5 Newtonian reflector: optics, woodworking, mechanics, and first light.
 
 ## Quick Links (Site)
-- **Project Homepage:** https://USERNAME.github.io/telescope-build/
+- **Project Homepage:** https://LucasKabookus.github.io/telescope-build/
 - **Bill of Materials (CSV):** docs/parts/BOM.csv
 - **Build Log:** docs/build-log/
 - **Gallery:** docs/gallery/
