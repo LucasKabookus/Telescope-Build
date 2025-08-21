@@ -2,8 +2,6 @@
 
 This repository documents my two-year build of a 10" f/5 Newtonian reflector: optics, woodworking, mechanics, and construction!
 
-![image alt](https://github.com/LucasKabookus/Telescope-Build/blob/main/Saturn%20View.png?raw=true)
-
 ## Quick Links (Site)
 - **Project Homepage:** https://lucaskabookus.github.io/Telescope-Build/
 - **Bill of Materials (CSV):** docs/parts/BOM.csv
